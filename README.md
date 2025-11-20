@@ -9,6 +9,7 @@ It is mainly meant for small-medium apps which don't need the highest performanc
 ## Planned Features
 - Authentication (For example through a password)
 - An Endpoint for mutating data in existing JSONs
+- Being able to choose a folder to store JSONs in instead of being limited to Server-Root
 
 ## Endpoints
 ```POST /create/<id>```
