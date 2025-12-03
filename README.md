@@ -4,12 +4,13 @@ A Dynamic and Schemaless JSON Storage with REST Endpoints written in Python usin
 ## Why was this project made?
 PySDDB's goal is not to take on big SQL Databases, but rather to provide a simple and intuitive interface for storing JSON files by transmitting them as payloads via HTTP.
 
-It is mainly meant for small-medium apps which don't need the highest performance, but are supposed to be quick to develop.
+It is mainly meant for small apps which don't need the highest performance, but are supposed to be quick to develop.
 
 ## Planned Features
 - Authentication (For example through a password)
 - An Endpoint for mutating data in existing JSONs
 - Being able to choose a folder to store JSONs in instead of being limited to Server-Root
+- CLI-Args for choosing port and host
 
 ## Endpoints
 ```POST /create/<id>```
